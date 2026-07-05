@@ -25,7 +25,6 @@ def classify_image():
 def home():
     return "Sports Celebrity Image Classification API is running."
 
-
 if __name__ == "__main__":
     print("Starting Python Flask Server For Sports Celebrity Image Classification")
     app.run(host="0.0.0.0", port=8000)
